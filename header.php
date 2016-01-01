@@ -23,7 +23,7 @@
 
 </head>
 <body>
-
+<div id="particles-js">
 <header id="header" class="clearfix">
     <div class="container">
         <div class="col-group">
