@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.min.css'); ?>">
     <link rel="shortcut icon" href="<?php $this->options->themeUrl('icon.jpg'); ?>" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="<?php $this->options->themeUrl('icon.jpg'); ?>" />
-    <script type="text/javascript" src="<?php $this->options->themeUrl('javascript/jquery.min.js'); ?>"></script>
     <?php $this->header('keywords=&description=&generator=&template=&pingback=&xmlrpc=&wlw=&rss1=&rss2&atom='); ?>
     <script>
     //Data Analysis
