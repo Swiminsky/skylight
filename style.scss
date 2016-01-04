@@ -1,75 +1,16 @@
 ﻿$bd:1px solid #ddd;
-/*$bdhv:rgba(18,167,107,.8);*/
+$bdcl:#ddd;
+$ftfm:'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, TIBch, "Helvetica Neue", Arial, STHeiti, serif;
 $bdhv:#ccc;
-@font-face {
-    font-family: 'icomoon';
-    src: url("fonts/icomoon.eot?-i5ysuu");
-    src: url("fonts/icomoon.eot?#iefix-i5ysuu") format("embedded-opentype"), url("fonts/icomoon.woff?-i5ysuu") format("woff"), url("fonts/icomoon.ttf?-i5ysuu") format("truetype"), url("fonts/icomoon.svg?-i5ysuu#icomoon") format("svg");
-    font-weight: normal;
-    font-style: normal
+body, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
 }
-
-[class^="icon-"],
-[class*=" icon-"] {
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-.icon-search:before {
-    content: "\e601"
-}
-
-.icon-air:before {
-    content: "\e602"
-}
-
-.icon-rss:before {
-    content: "\e603"
-}
-
-.icon-list:before {
-    content: "\e604"
-}
-
-.icon-github:before {
-    content: "\e608"
-}
-
-
-.icon-qq:before {
-    content: "\e60b"
-}
-
-.icon-sina-weibo:before {
-    content: "\e60d"
-}
-
-*::selection {
-    background: none repeat scroll 0 0 #1abc9c;
-    color: #fff
-}
-
-*::-moz-selection {
-    background: none repeat scroll 0 0 #1abc9c;
-    color: #fff
-}
-html {
-    min-height: 100%;
-    background-color: #f5f5f5;
-}
-body {
-    color: #444;
-    font-size: 14px;
-    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial,  "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+fieldset, img { border: none; }
+button, input, textarea {
+    font-size: 100%;
 }
 
 a,
@@ -130,30 +71,109 @@ textarea {
 textarea {
     resize: vertical
 }
-
-.clear {
-    clear: both
+/* css reset */
+@font-face {
+    font-family: 'icomoon';
+    src: url("fonts/icomoon.eot?-i5ysuu");
+    src: url("fonts/icomoon.eot?#iefix-i5ysuu") format("embedded-opentype"), url("fonts/icomoon.woff?-i5ysuu") format("woff"), url("fonts/icomoon.ttf?-i5ysuu") format("truetype"), url("fonts/icomoon.svg?-i5ysuu#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal
 }
 
-.clearfix,
-.col-group {
-    zoom: 1
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
 
-.clearfix:before,
-.col-group:before,
-.clearfix:after,
-.col-group:after {
-    content: " ";
-    display: table
+.icon-search:before {
+    content: "\e601"
 }
 
-.clearfix:after,
-.col-group:after {
-    clear: both
+.icon-air:before {
+    content: "\e602"
+}
+
+.icon-rss:before {
+    content: "\e603"
+}
+
+.icon-list:before {
+    content: "\e604"
+}
+
+.icon-github:before {
+    content: "\e608"
 }
 
 
+.icon-qq:before {
+    content: "\e60b"
+}
+
+.icon-sina-weibo:before {
+    content: "\e60d"
+}
+/* icon */
+*::selection {
+    background: none repeat scroll 0 0 #1abc9c;
+    color: #fff
+}
+
+*::-moz-selection {
+    background: none repeat scroll 0 0 #1abc9c;
+    color: #fff
+}
+html {
+    min-height: 100%;
+    background-color: #f5f5f5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    color: #444;
+    font-size: 14px;
+    font-family: Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+/* particlesjs style start */
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.particles-js-canvas-el {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 1;
+}
+/* particlesjs style end */
 .post-meta a:hover,
 .post-content a:hover,
 .widget a:hover {
@@ -176,12 +196,12 @@ textarea {
             .description {
                 margin-top: 20px;
                 font-size: 16px;
-                font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif,"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial,  "STHeiti",serif;
+                font-family: $ftfm;
                 color: #555
             }
         } 
         #logo {
-            font: bold 42px/1.12 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif,"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial,  "STHeiti",serif;
+            font: bold 42px/1.12 $ftfm;
             color: #555;
             &:hover {
                 color:#777;
@@ -189,26 +209,27 @@ textarea {
         }
     }
 }
+
 .container {
     width: 1150px;
     padding: 0 30px;
     margin: 0 auto;
 }
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+
+/*.col-8 {
+    width: 880px
+}*/
+
+/*.col-12 {
+    width: 100%
+}*/
+
+#main {
+    width: 880px;
+    padding-top: 20px;
+    float: left
 }
-.particles-js-canvas-el {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right:0;
-    z-index: 1;
-}
+/* grid */
 #nav-menu {
     margin: 10px 0 -1px;
     padding: 0;
@@ -219,7 +240,7 @@ textarea {
         height: 28px;
         line-height: 28px;
         color: #666;
-        font-size: 15px
+        font-size: 14px
     }
     a.current {
         border-radius: 2px 2px 0 0;
@@ -228,7 +249,7 @@ textarea {
         border-bottom-color: #f5f5f5;
     }
 }
-
+/* search button */
 #search {
     position: relative;
     overflow: hidden;
@@ -237,8 +258,11 @@ textarea {
         border: 1px solid $bdhv;
     }
     input {
+        border: none;
+        width: 100%;
         padding: 8px 30px 6px 15px;
         line-height: 1.5;
+        font-family: inherit;
         background-color: #fff;
     }
     button {
@@ -255,35 +279,22 @@ textarea {
     }
 }
 
-.col-8 {
-    width: 880px
-}
-
-.col-12 {
-    width: 100%
-}
-
 #secondary {
     float: right;
     width: 245px;
     padding-left: 15px;
-    font-family: 'Palatino Linotype','Book Antiqua',Palatino,FreeSerif,"TIBch","Helvetica Neue","STHeiti",Arial,serif;
+    font-family: $ftfm;
     word-wrap: break-word;
     display: block;
     padding-top: 40px;
 }
 
-#main {
-    padding-top: 20px;
-    float: left
-}
-
 .post {
+    position: relative;
     padding: 25px;
     border-left: 3px solid transparent;
     background-color: #fff;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin: 20px 0;
     border: $bd;
     &:hover {
         border-color:$bdhv; 
@@ -292,7 +303,7 @@ textarea {
         margin: 0;
         color: #555;
         text-align: left;
-        font: bold 28px/1.2 'Palatino Linotype','Book Antiqua',Palatino,FreeSerif,"TIBch","Helvetica Neue","STHeiti",Arial,serif;
+        font: bold 28px/1.2 $ftfm;
         a {
             word-break: break-all;
             cursor: pointer;
@@ -303,7 +314,7 @@ textarea {
         padding: 0;
         margin: 4px 0 0 3px;
         color: #666;
-        font-family: 'Palatino Linotype','Book Antiqua',Palatino,FreeSerif,"TIBch","Helvetica Neue","STHeiti",Arial,serif;
+        font-family: $ftfm;
         text-align: left;
         display: block;
         span {
@@ -317,7 +328,7 @@ textarea {
         padding-top: 27px;
         line-height: 1.875;
         .little-title {
-            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+            font-family: $ftfm;
             font-size: 48px;
             text-align: center;
             color: #12a76b;
@@ -374,21 +385,22 @@ textarea {
             position: relative
         }
         .more {
-            margin:0;
-            padding: 0;
+            margin-top: 60px;
+            text-align: right;
             a {
+                position: absolute;
+                bottom: -1px;
+                right: -1px;
                 cursor: pointer;
                 cursor: -webkit-zoom-in;
                 display: inline;
-                border-radius: 1px;
-                line-height: 35px;
+                line-height: 48px;
                 width: auto;
-                padding: 8px;
-                height: 35px;
-                border: 1px solid transparent;
+                padding:0 20px;
+                height: 48px;
                 background: transparent;
                 font-size: 16px;
-                font-family: Palatino,FreeSerif,serif,Tahoma,Arial;
+                font-family: $ftfm;
                 text-decoration: none;
                 -webkit-transition: 0.2s;
                 -moz-transition: 0.2s;
@@ -399,10 +411,16 @@ textarea {
                     background-color: #1ABC9C;
                     border-color: #1ABC9C;
                     color: white;
-                    border-radius: 2px;
                 }
             }
         }
+    }
+    .post-sub {
+        position: absolute;
+        bottom: 46px;
+        left: 0;
+        right: 0;
+        border-top: 1px solid #ddd;
     }
 }
 .post-content a img {
@@ -514,8 +532,7 @@ textarea.textarea {
     line-height: 2.5;
     font-size: 16px;
     margin-top: 0;
-    border-bottom: 1px solid #bbb;
-    display: block;
+    border-bottom: $bd;
 }
 
 .widget-list {
@@ -534,7 +551,7 @@ textarea.textarea {
     padding: .8em 0 3.6em;
     line-height: 1.5;
     color: #999;
-    font-family: 'Palatino Linotype','Book Antiqua',Palatino,FreeSerif,"TIBch","Helvetica Neue","STHeiti",Arial,serif;
+    font-family: $ftfm;
 }
 
 .error-page {
