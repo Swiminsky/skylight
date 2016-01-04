@@ -20,7 +20,7 @@
 		<h3 class="widget-title"><?php _e('分类'); ?></h3>
         <ul class="widget-list">
             <?php $this->widget('Widget_Metas_Category_List')
-            ->parse('<li><a href="{permalink}">{name}</a> ({count})</li>'); ?>
+            ->parse('<li><a href="{permalink}">{name} ({count})</a></li>'); ?>
         </ul>
 	</section>
     <?php endif; ?>

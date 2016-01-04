@@ -18,7 +18,7 @@
 <div id="particles-js">
   <div class="body404">
     <div class="info404">
-      <header id="header404" class="clearfix">
+      <header id="header404">
         <div class="site-name404">
           <i>404</i>
         </div>

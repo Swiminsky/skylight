@@ -31,9 +31,9 @@
 </head>
 <body>
 <div id="particles-js">
-<header id="header" class="clearfix">
+<header id="header">
     <div class="container">
-        <div class="col-group">
+        <div class="col-group clearfix">
             <div class="site-name ">
                 <?php if ($this->is('index')): ?>
                     <h1>
@@ -48,18 +48,16 @@
                 <?php endif; ?>
                 <p class="description"><?php $this->options->description() ?></p>
             </div>
-            <div>
-                <nav id="nav-menu" class="clearfix">
-                    <a class="<?php if($this->is('index')): ?>current<?php endif; ?> <?php if($this->is('post')): ?>current<?php endif; ?>" href="<?php $this->options->siteUrl(); ?>"><?php _e('文章'); ?></a>
-                    <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
-                    <?php while($pages->next()): ?>
-                    <a <?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
-                    <?php endwhile; ?>
-                </nav>
-            </div>
+            <nav id="nav-menu">
+                <a class="<?php if($this->is('index')): ?>current<?php endif; ?> <?php if($this->is('post')): ?>current<?php endif; ?>" href="<?php $this->options->siteUrl(); ?>"><?php _e('文章'); ?></a>
+                <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
+                <?php while($pages->next()): ?>
+                <a <?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                <?php endwhile; ?>
+            </nav>
         </div>
     </div>
 </header>
 <div id="body">
     <div class="container">
-        <div class="col-group">
+        <div class="col-group clearfix">
