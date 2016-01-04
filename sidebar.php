@@ -7,7 +7,7 @@
     </section>
 
 	<?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentPosts', $this->options->sidebarBlock)): ?>
-    <section class="widget sidebarborder">
+    <section class="widget side-wrap">
 		<h3 class="widget-title"><?php _e('最近'); ?></h3>
         <ul class="widget-list">
             <?php $this->widget('Widget_Contents_Post_Recent')
@@ -16,7 +16,7 @@
     </section>
     <?php endif; ?>
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowCategory', $this->options->sidebarBlock)): ?>
-    <section class="widget sidebarborder">
+    <section class="widget side-wrap">
 		<h3 class="widget-title"><?php _e('分类'); ?></h3>
         <ul class="widget-list">
             <?php $this->widget('Widget_Metas_Category_List')
@@ -26,7 +26,7 @@
     <?php endif; ?>
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowArchive', $this->options->sidebarBlock)): ?>
-    <section class="widget sidebarborder">
+    <section class="widget side-wrap">
 		<h3 class="widget-title"><?php _e('归档'); ?></h3>
         <ul class="widget-list">
             <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=F Y')
@@ -36,7 +36,7 @@
     <?php endif; ?>
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowOther', $this->options->sidebarBlock)): ?>
-	<section class="widget sidebarborder">
+	<section class="widget side-wrap">
 		<h3 class="widget-title"><?php _e('Other'); ?></h3>
         <ul class="widget-list">
             <?php if($this->user->hasLogin()): ?>
