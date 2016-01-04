@@ -11,11 +11,11 @@
         <?php if ($this->have()): ?>
         <?php while($this->next()): ?>
             <article class="post">
-                <header>
-                  <h2 class="post-title">
+            <header>
+                <h2 class="post-title">
                      <a href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
-                  </h2>
-                </header>
+                </h2>
+            </header>
             <date class="post-meta">
                 <span><?php _e('Date: '); ?><?php $this->date('F j, Y'); ?></span>
                 <span><?php _e('Sort: '); ?><?php $this->category(', '); ?></span>
@@ -27,7 +27,7 @@
         <?php endwhile; ?>
         <?php else: ?>
             <article class="post">
-                <h2 class="post-title"><?php _e('没有找到内容'); ?></h2>
+                <h2 class="post-title"><?php _e('没有找到相关内容'); ?></h2>
             </article>
         <?php endif; ?>
         <?php $this->pageNav('&laquo; Prev','Next &raquo;',4,'...'); ?>

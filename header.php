@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="no-js">
+<html class="no-js" lang="zh-CN">
 <head>
     <meta charset="<?php $this->options->charset(); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
