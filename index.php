@@ -15,8 +15,9 @@
 					<span><?php _e('Sort: '); ?><?php $this->category(','); ?></span>
 				</date>
 				<div class="post-content">
-					<?php $this->content('Read More'); ?>
+					<?php $this->content('Read More &raquo;'); ?>
 				</div>
+				<div class="post-sub"></div>
 			</article>
 		<?php endwhile; ?>
 		<?php $this->pageNav('&laquo;','&raquo;',2,'...');?>

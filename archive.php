@@ -20,9 +20,10 @@
                 <span><?php _e('Date: '); ?><?php $this->date('F j, Y'); ?></span>
                 <span><?php _e('Sort: '); ?><?php $this->category(', '); ?></span>
             </date>
-                <div class="post-content">
-                <?php $this->content('Read More'); ?>
-                </div>
+            <div class="post-content">
+                <?php $this->content('Read More &raquo;'); ?>
+            </div>
+            <div class="post-sub"></div>
             </article>
         <?php endwhile; ?>
         <?php else: ?>
