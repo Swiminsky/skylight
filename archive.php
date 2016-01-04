@@ -30,7 +30,7 @@
                 <h2 class="post-title"><?php _e('没有找到相关内容'); ?></h2>
             </article>
         <?php endif; ?>
-        <?php $this->pageNav('&laquo; Prev','Next &raquo;',4,'...'); ?>
+        <?php $this->pageNav('&laquo;','&raquo;',2,'...'); ?>
     </div>
 </div>
 <?php $this->need('sidebar.php'); ?>

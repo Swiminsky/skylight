@@ -19,7 +19,7 @@
 				</div>
 			</article>
 		<?php endwhile; ?>
-		<?php $this->pageNav('&laquo; Prev','Next &raquo;',2,'...');?>
+		<?php $this->pageNav('&laquo;','&raquo;',2,'...');?>
 	</div>
 </div>
 <?php $this->need('sidebar.php'); ?>
