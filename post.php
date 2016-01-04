@@ -1,12 +1,13 @@
 <?php $this->need('header.php'); ?>
-<div class="col-8" id="main">
-	<div class="res-cons">
+<div id="main">
+	<div class="wrap">
 		<article class="post">
 			<header>
 				<h1 class="post-title"><?php $this->title() ?></h1>
 			</header>
 			<date class="post-meta">
-				<?php $this->date('F j, Y'); ?>
+				<span><?php _e('Date: '); ?><?php $this->date('F j, Y'); ?></span>
+				<span><?php _e('Sort: '); ?><?php $this->category(','); ?></span>
 			</date>
 			<div class="post-content">
 				<?php $this->content(); ?>
@@ -17,3 +18,4 @@
 </div>
 <?php $this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>
+<?php $this->footer(); ?>

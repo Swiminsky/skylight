@@ -3,17 +3,16 @@
 <head>
     <meta charset="<?php $this->options->charset(); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
     <title><?php $this->archiveTitle('', '', ' - '); ?><?php $this->options->title(); ?></title>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="<?php $this->options->themeUrl('javascript/html5shiv.js'); ?>"></script>
     <![endif]-->
     <meta name ="title" content="iwxy.me">
-    <meta name ="keywords" content="iwxy.me,SwimInSky">
+    <meta name ="keywords" content="iwxy.me,blog,swiminsky">
+    <meta name ="description" content="不高估别人，不低估自己，反之亦然">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
-    <meta name ="description" content="iwxy.me　是一个以学习和分享为目的的原创写作博客，技术方向为前端开发，分享经验，记录点滴">
-    <link rel="stylesheet" href="<?php $this->options->adminUrl('css/normalize.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.min.css'); ?>">
     <link rel="shortcut icon" href="<?php $this->options->themeUrl('icon.jpg'); ?>" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="<?php $this->options->themeUrl('icon.jpg'); ?>" />

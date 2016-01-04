@@ -2,7 +2,6 @@
 	<section class="widget">
         <form id="search" method="post" action="./">
             <input type="text" name="s" class="text" placeholder="Search..." />
-            <button type="submit" class="submit icon-search"></button>
         </form>
     </section>
 
@@ -37,7 +36,7 @@
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowOther', $this->options->sidebarBlock)): ?>
 	<section class="widget side-wrap">
-		<h3 class="widget-title"><?php _e('Other'); ?></h3>
+		<h3 class="widget-title"><?php _e('其它'); ?></h3>
         <ul class="widget-list">
             <?php if($this->user->hasLogin()): ?>
 				<li class="last"><a href="<?php $this->options->adminUrl(); ?>"><?php _e('进入后台'); ?> (<?php $this->user->screenName(); ?>)</a></li>
