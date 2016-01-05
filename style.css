@@ -509,9 +509,13 @@ body {
 }
 .body404 #footer404 {
   position: absolute;
-  bottom: 20px;
+  line-height: 1.5;
+  bottom: 25px;
+  color: #666;
   width: 100%;
   text-align: center;
+  z-index: 10;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, TIBch, "Helvetica Neue", Arial, STHeiti, serif;
 }
 
 @media screen and (max-width: 1290px) {
@@ -614,3 +618,4 @@ body {
   }
 }
 
+/*# sourceMappingURL=style.css.map */
