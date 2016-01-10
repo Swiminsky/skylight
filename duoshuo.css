@@ -1,107 +1,125 @@
-#ds-thread{ border-radius: 5px;}
-#ds-reset .ds-service-link{background:none}
-#ds-thread #ds-reset .ds-login-buttons .ds-social-links{width:auto}
-#ds-thread #ds-reset .ds-post-options {margin-right: 0;height: 30px;border-radius:0;border: 1px solid #ccc;border-top-color: transparent;}
-#ds-reset .ds-gradient-bg {background:none;background:#fff}
-
-
+/**
+ * 多说评论框样式定义
+ * 将此代码块复制到多说设置里的自定义规则中
+ * @author swiminsky
+ */
+#ds-reset .ds-service-link {
+	background:none;
+}
+#ds-thread #ds-reset .ds-login-buttons .ds-social-links{
+	width:auto;
+}
+#ds-thread #ds-reset .ds-post-options {
+	margin-right: 0;
+	height: 30px;
+	border-radius:0;
+	border: 1px solid #ccc;
+	border-top-color: transparent;
+}
+#ds-reset .ds-gradient-bg {
+	background:#fff;
+}
 #ds-thread #ds-reset .ds-post-button {
-width:95px;
-height:33px;
-top:-1px;
-background-image:none;
-font-weight:normal;
-text-shadow:none;
-background-color: #428bca;
-color:#fff;
-border: 1px solid transparent;
-box-shadow:none;
+	width:95px;
+	height:33px;
+	top:-1px;
+	background-image:none;
+	font-weight:normal;
+	text-shadow:none;
+	background-color: #428bca;
+	color:#fff;
+	border: 1px solid transparent;
+	box-shadow:none;
 }
 #ds-thread #ds-reset .ds-post-button:hover {
-color:#fff;
-background-color:rgba(66,139,202,.8);
+	color:#fff;
+	background-color:rgba(66,139,202,.8);
 }
 
-#ds-thread #ds-reset .ds-sync{
-display:none;
+#ds-thread #ds-reset .ds-textarea-wrapper{
+	background:none;
+	background-color:#fff;
+	border:1px solid #ccc;
+	height: 80px;
 }
-#ds-thread #ds-reset .ds-textarea-wrapper{background:none;background-color:#fff;border:1px solid #ccc;height: 80px;}
-#ds-thread #ds-reset .ds-textarea-wrapper:hover #ds-thread #ds-reset .ds-post-options {border:1px solid 1px solid rgba(52,152,219,0.5);border-top-color: transparent;}
-#ds-thread #ds-reset .ds-textarea-wrapper:hover{border:1px solid 1px solid rgba(52,152,219,0.5);}
+#ds-thread #ds-reset .ds-textarea-wrapper:hover #ds-thread #ds-reset .ds-post-options {
+	border:1px solid 1px solid rgba(52,152,219,0.5);
+	border-top-color: transparent;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper:hover{
+	border:1px solid 1px solid rgba(52,152,219,0.5);
+}
 #ds-thread #ds-reset a{
--webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;  
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;  
  }
-#ds-thread #ds-reset .ds-login-buttons .ds-service-list li{margin:0 12px 0 0;width:auto;padding:0;height:auto;}
+#ds-thread #ds-reset .ds-login-buttons .ds-service-list li{
+	margin:0 12px 0 0;
+	width:auto;
+	padding:0;
+	height:auto;
+}
 
 #ds-reset .ds-weibo{
-border: 1px solid #e67e22;
-padding: 5px;
-margin: 0px;
-width: 45px;
-text-align: center;
-color:#e67e22 !important;
-margin-top: -5px;
-border-radius: 3px;
+	border: 1px solid #e67e22;
+	padding: 5px;
+	margin: 0px;
+	width: 45px;
+	text-align: center;
+	color:#e67e22 !important;
+	margin-top: -5px;
+	border-radius: 3px;
 }
 #ds-reset .ds-weibo:hover{
-color:#fff !important;
-background: #e67e22 !important;
+	color:#fff !important;
+	background: #e67e22 !important;
 }
 #ds-reset .ds-qq{
-border: 1px solid #3498db;
-padding: 5px;
-margin: 0px;
-width: 45px;
-text-align: center;
-color: #3498db !important;
-margin-top: -5px;
-border-radius: 3px;
+	border: 1px solid #3498db;
+	padding: 5px;
+	margin: 0px;
+	width: 45px;
+	text-align: center;
+	color: #3498db !important;
+	margin-top: -5px;
+	border-radius: 3px;
 }
 #ds-reset .ds-qq:hover{
-color:#fff !important;
-background: #3498db !important;
+	color:#fff !important;
+	background: #3498db !important;
 }
-#ds-reset .ds-renren{
-display:none;
-}
-
 #ds-reset .ds-weixin{
-border: 1px solid #37994C;
-padding: 5px;
-margin: 0px;
-width: 45px;
-text-align: center;
-color: #37994C !important;
-margin-top: -5px;
-margin-left:60px;
-border-radius: 3px;
+	border: 1px solid #37994C;
+	padding: 5px;
+	margin: 0px;
+	width: 45px;
+	text-align: center;
+	color: #37994C !important;
+	margin-top: -5px;
+	margin-left:60px;
+	border-radius: 3px;
 }
 #ds-reset .ds-weixin:hover{
-color:#fff !important;
-background: #37994C !important;
+	color:#fff !important;
+	background: #37994C !important;
 }
-#ds-reset p {color:#666;}
-#ds-thread #ds-reset .ds-login-buttons .ds-more-services{
-display:none;
-}
-#ds-thread #ds-reset .ds-login-buttons p{
-display:none;
-}
-#ds-thread #ds-reset .ds-sort {
-display:none;
+#ds-reset p {
+	color:#666;
 }
 #ds-thread{
-border-radius:0;
-background:#fff;
-padding:15px;
-border:1px solid #ddd;
+	border-radius:0;
+	background:#fff;
+	padding:15px;
+	border:1px solid #ddd;
 }
 #ds-thread:hover{
-border-color:#ccc;
+	border-color:#ccc;
 }
-#ds-thread #ds-reset .ds-powered-by a {display:none}
-#ds-thread #ds-reset .ds-login-buttons .ds-social-links{margin-top:8px;}
-#ds-thread #ds-reset .ds-sync a.ds-service-icon, #ds-thread #ds-reset .ds-sync a.ds-service-icon-grey{display:none}
+#ds-thread #ds-reset .ds-login-buttons .ds-social-links{
+	margin-top:8px;
+}
+#ds-reset .ds-renren,#ds-thread #ds-reset .ds-sync a.ds-service-icon, #ds-thread #ds-reset .ds-sync a.ds-service-icon-grey,#ds-thread #ds-reset .ds-powered-by a ,#ds-thread #ds-reset .ds-sort,#ds-thread #ds-reset .ds-login-buttons p,#ds-thread #ds-reset .ds-sync,#ds-thread #ds-reset .ds-login-buttons .ds-more-services{
+	display:none;
+}
