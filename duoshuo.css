@@ -37,9 +37,9 @@
 }
 
 #ds-thread #ds-reset .ds-textarea-wrapper{
-	background:none;
-	background-color:#fff;
+	background:#fff;
 	border:1px solid #ccc;
+	border-radius: 0;
 	height: 80px;
 }
 #ds-thread #ds-reset .ds-textarea-wrapper:hover #ds-thread #ds-reset .ds-post-options {
