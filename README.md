@@ -12,11 +12,11 @@
  4. 样式开发基于 CSS 预处理器 Sass，欢迎二次开发
 
 ### 安装过程
- 1. 首先安装typecho，具体步骤请参照 typecho官方文档 [http://docs.typecho.org/install][3]
+1. 首先安装typecho，具体步骤请参照 typecho官方文档 [http://docs.typecho.org/install][3]
 
- 2. 将该主题上传至 typecho 安装目录 /usr/themes/ 
-
- 3. 在 typecho 控制台/外观里找到并启用 skylight
+2. 将该主题上传至 typecho 安装目录 /usr/themes
+ 
+3. 在 typecho 控制台/外观里找到并启用 skylight
 
 ### 主题预览
 参见 [http://iwxy.me](http://iwxy.me)
