@@ -1,2 +1,34 @@
-# skylight
-A puerly typecho theme
+![][1]
+
+最近忙着做毕设，整天往自习室跑，忙里偷闲整理了代码，总算把自己设计的基于 Typecho 的主题 skylight v1.0 发布出来啦！
+
+### 功能概览
+ 1. 响应式设计，兼容PC及移动端
+
+ 2. 引用粒子效果插件 particles.js 作为背景，如需自定义请参考 [https://github.com/VincentGarreau/particles.js][2]
+
+ 3. 多说样式设计，将 duoshuo.css 中的代码复制到多说后台自定义CSS中即可
+
+ 4. 样式开发基于 CSS 预处理器 Sass，欢迎二次开发
+
+### 安装过程
+ 1. 首先安装typecho，具体步骤请参照 typecho官方文档 [http://docs.typecho.org/install][3]
+
+ 2. 将该主题上传至 typecho 安装目录 /usr/themes/ 
+
+ 3. 在 typecho 控制台/外观里找到并启用 skylight
+
+### 主题预览
+参见 [http://iwxy.me](http://iwxy.me)
+
+### 下载地址
+
+有任何意见或者建议都可以直接邮件联系我哈！传送门：[https://github.com/Swiminsky/skylight](https://github.com/Swiminsky/skylight)
+
+
+
+
+
+  [1]: http://iwxy.me/usr/uploads/2016/01/660403343.png  
+  [2]: https://github.com/VincentGarreau/particles.js
+  [3]: http://docs.typecho.org/install
