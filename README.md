@@ -5,11 +5,11 @@
 ### 功能概览
  1. 响应式设计，兼容PC及移动端
 
- 2. 引用粒子效果插件 particles.js 作为背景，如需自定义请参考 [https://github.com/VincentGarreau/particles.js][2]
+ 2. 引用粒子效果插件 particles.js 作为背景，如需自定义请参考 [https://github.com/VincentGarreau/particles.js][2] 对目录 javascript 中 app.js 里的相关内容进行修改
 
- 3. 多说样式设计，将 duoshuo.css 中的代码复制到多说后台自定义CSS中即可
+ 3. 多说样式设计，多说评论插件的安装请参考官方教程，将多说提供的代码拷贝至 comments.php 中，确认安装成功之后，将 duoshuo.css 中的样式拷贝到多说后台的自定义 CSS 规则中即可
 
- 4. 样式开发基于 CSS 预处理器 Sass，欢迎二次开发
+ 4. 样式开发基于 CSS 预处理器 Sass
 
 ### 安装过程
 1. 首先安装typecho，具体步骤请参照 typecho官方文档 [http://docs.typecho.org/install][3]
@@ -22,8 +22,9 @@
 参见 [http://iwxy.me](http://iwxy.me)
 
 ### 下载地址
+传送门：[https://github.com/Swiminsky/skylight](https://github.com/Swiminsky/skylight)
 
-有任何意见或者建议都可以直接邮件联系我哈！传送门：[https://github.com/Swiminsky/skylight](https://github.com/Swiminsky/skylight)
+有任何意见或者建议都请直接邮件联系我，欢迎交流！
 
 
 
