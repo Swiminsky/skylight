@@ -13,7 +13,7 @@
     <meta name ="description" content="不高估别人，不低估自己，反之亦然">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.min.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.min.css'); ?>">
     <link rel="shortcut icon" href="<?php $this->options->themeUrl('icon.jpg'); ?>" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="<?php $this->options->themeUrl('icon.jpg'); ?>" />
     <?php $this->header('keywords=&description=&generator=&template=&pingback=&xmlrpc=&wlw=&rss1=&rss2&atom='); ?>

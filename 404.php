@@ -10,7 +10,7 @@
 	<!--[if lt IE 9]>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('javascript/html5shiv.js'); ?>">
   <![endif]-->
-  <link rel="stylesheet" href="<?php $this->options->themeUrl('style.min.css'); ?>">
+  <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.min.css'); ?>">
   <?php $this->header('keywords=&description=&generator=&template=&pingback=&xmlrpc=&wlw=&rss1=&rss2&atom='); ?>
 </head>
 <body>
