@@ -7,7 +7,7 @@
 
  2. 引用粒子效果插件 particles.js 作为背景，如需自定义请参考 [https://github.com/VincentGarreau/particles.js][2] 对目录 javascript 中 app.js 里的相关内容进行修改
 
- 3. 多说样式设计，多说评论插件的安装请参考官方教程，将多说提供的代码拷贝至 comments.php 中，确认安装成功之后，将 duoshuo.css 中的样式拷贝到多说后台的自定义 CSS 规则中即可
+ 3. 多说样式设计，多说评论插件的安装请参考官方教程 [http://duoshuo.com](http://duoshuo.com)，将多说提供的代码拷贝至 comments.php 中，确认安装成功之后，将 css/duoshuo.css 中的样式拷贝到多说后台的自定义 CSS 规则中即可
 
  4. 样式开发基于 CSS 预处理器 Sass
 
