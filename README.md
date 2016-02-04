@@ -18,6 +18,10 @@
  
 3. 在 typecho 控制台/外观里找到并启用 skylight
 
+### 注意事项
+
+使用该主题时，请替换掉 header.php 中百度统计相关代码
+
 ### 主题预览
 参见 [http://iwxy.me](http://iwxy.me)
 
