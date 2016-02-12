@@ -8,9 +8,10 @@
     <!--[if lt IE 9]>
         <script type="text/javascript" src="<?php $this->options->themeUrl('javascript/html5shiv.js'); ?>"></script>
     <![endif]-->
+    <!-- SEO -->
     <meta name ="title" content="iwxy.me">
     <meta name ="keywords" content="iwxy.me,blog,swiminsky">
-    <meta name ="description" content="不高估别人，不低估自己，反之亦然">
+    <meta name ="description" content="人总是要有些理想与信仰">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.min.css'); ?>">
@@ -18,7 +19,7 @@
     <link rel="apple-touch-icon-precomposed" href="<?php $this->options->themeUrl('icon.jpg'); ?>" />
     <?php $this->header('keywords=&description=&generator=&template=&pingback=&xmlrpc=&wlw=&rss1=&rss2&atom='); ?>
     <script>
-    //Data Analysis
+    // Baidu Data Analysis
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
