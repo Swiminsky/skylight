@@ -26,6 +26,22 @@
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowArchive', $this->options->sidebarBlock)): ?>
     <section class="widget side-wrap">
+        <h3 class="widget-title"><?php _e('标签云'); ?></h3>
+        <?php $this->widget('Widget_Metas_Tag_Cloud', 'sort=mid&ignoreZeroCount=1&desc=1&limit=100')->to($tags); ?>
+        <?php if($tags->have()): ?>
+        <ul class="widget-list tag-list">
+        <?php while ($tags->next()): ?>
+            <li><a href="<?php $tags->permalink(); ?>" rel="tag" title="<?php $tags->count(); ?> 篇文章"><?php $tags->name(); ?></a></li>
+        <?php endwhile; ?>
+        <?php else: ?>
+            <li><?php _e('没有任何标签'); ?></li>
+        <?php endif; ?>
+        </ul>
+    </section>
+    <?php endif; ?>
+
+    <?php if (!empty($this->options->sidebarBlock) && in_array('ShowArchive', $this->options->sidebarBlock)): ?>
+    <section class="widget side-wrap">
 		<h3 class="widget-title"><?php _e('归档'); ?></h3>
         <ul class="widget-list">
             <?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=F Y')
@@ -49,4 +65,5 @@
         </ul>
 	</section>
     <?php endif; ?>
+    
 </div>

@@ -17,6 +17,9 @@
 				<div class="post-content">
 					<?php $this->content('Read More &raquo;'); ?>
 				</div>
+				<div class="post-tag">
+					<?php $this->tags(''); ?>
+				</div>
 				<div class="post-sub"></div>
 			</article>
 		<?php endwhile; ?>

@@ -95,7 +95,7 @@ html {
 body {
     color: #444;
     font-size: 14px;
-    font-family: Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    font-family: Helvetica, Arial, "microsoft yahei", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -343,6 +343,36 @@ body {
             }
         }
     }
+    .post-tag{
+        position: absolute;
+        bottom: -1px;
+        left: 5px;
+        display: inline;
+        line-height: 48px;
+        width: auto;
+        padding:0 20px;
+        height: 48px;
+        background: transparent;
+        text-decoration: none;
+        color: #999;
+        text-decoration: none;
+        a{
+            padding: 4px 9px;
+            margin-right: 10px;
+            background: #1abc9c;
+            font-size: 12px;
+            color: #fff;
+            cursor: pointer;
+            cursor: -webkit-zoom-in;
+            -webkit-transition: 0.2s;
+            -moz-transition: 0.2s;
+            transition: 0.2s;
+            &:hover {
+                filter:alpha(opacity=60);
+                opacity: .6;                
+            }
+        }
+    }
     .post-sub {
         position: absolute;
         bottom: 46px;
@@ -439,6 +469,10 @@ body {
             margin: 5px 0;
             line-height: 1.5;
         }
+    }
+    .tag-list li{
+        display: inline-block;
+        margin-right: 5px;
     }
 }
 
