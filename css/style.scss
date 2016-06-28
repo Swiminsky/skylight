@@ -1,9 +1,9 @@
 ﻿// color 
 $bdcl:#ddd;
-$bdhv:#ccc;
+$bdhv:#eaeaea;
 $lightskyblue:#87cefa;
 // border
-$bd:1px solid #ddd;
+$bd:1px solid #eaeaea;
 // font-family
 $ftfm:'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, TIBch, "Helvetica Neue", Arial, STHeiti, serif;
 // css reset
@@ -208,10 +208,10 @@ body {
 .post {
     position: relative;
     padding: 25px;
-    border-left: 3px solid transparent;
     background-color: #fff;
     margin: 20px 0;
     border: $bd;
+    border-radius: 4px;
     &:hover {
         border-color:$bdhv; 
     }
@@ -356,6 +356,7 @@ body {
         text-decoration: none;
         color: #999;
         text-decoration: none;
+        border-radius: 2px;
         a{
             padding: 4px 9px;
             margin-right: 10px;
@@ -431,6 +432,7 @@ body {
         position: relative;
         overflow: hidden;
         border: $bd;
+        border-radius: 4px;
         &:hover {
             border: 1px solid $bdhv;
         }
@@ -457,8 +459,8 @@ body {
     }
     .widget-title {
         color: #666;
-        line-height: 2.5;
-        font-size: 16px;
+        line-height: 2;
+        font-size: 24px;
         margin-top: 0;
         border-bottom: $bd;
     }
@@ -482,6 +484,7 @@ body {
     margin-top: 10px;
     overflow: hidden;
     border: $bd;
+    border-radius: 4px;
     &:hover {
         border-color:$bdhv;
     }
