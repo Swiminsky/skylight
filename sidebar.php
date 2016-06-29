@@ -5,6 +5,12 @@
         </form>
     </section>
 
+    <section class="widget">
+        <a class="lofter" href="http://swiminsky.lofter.com/">
+            <img src="http://7xid9a.com1.z0.glb.clouddn.com/%40%2Flofter%2Flogo2.jpg" alt="error..." height="25px;">
+        </a>
+    </section>
+
 	<?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentPosts', $this->options->sidebarBlock)): ?>
     <section class="widget side-wrap">
 		<h3 class="widget-title"><?php _e('最近'); ?></h3>
