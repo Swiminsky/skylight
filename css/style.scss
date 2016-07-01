@@ -467,7 +467,15 @@ body {
 		border-radius: 4px;
 		background-color: #fff;
 		img {
+			-webkit-transition: 0.2s;
+			-moz-transition: 0.2s;
+			transition: 0.2s;
 			margin-top: 5px;
+		}
+		&:hover {
+			img {
+				opacity: 0.5;
+			}
 		}
     }
     .widget-title {

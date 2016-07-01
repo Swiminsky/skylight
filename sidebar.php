@@ -6,7 +6,7 @@
     </section>
 
     <section class="widget">
-        <a class="lofter" href="http://swiminsky.lofter.com/">
+        <a class="lofter" href="http://swiminsky.lofter.com/" target="_blank">
             <img src="http://7xid9a.com1.z0.glb.clouddn.com/%40%2Flofter%2Flogo2.jpg" alt="error..." height="25px;">
         </a>
     </section>
