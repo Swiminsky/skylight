@@ -13,8 +13,9 @@
 	margin-right: 0;
 	height: 30px;
 	border-radius:0;
-	border: 1px solid #ccc;
+	border: 1px solid #eaeaea;
 	border-top-color: transparent;
+	border-right-color: transparent;
 }
 #ds-reset .ds-gradient-bg {
 	background:#fff;
@@ -38,7 +39,7 @@
 
 #ds-thread #ds-reset .ds-textarea-wrapper{
 	background:#fff;
-	border:1px solid #ccc;
+	border:1px solid #eaeaea;
 	border-radius: 0;
 	height: 80px;
 }
@@ -112,14 +113,19 @@
 	border-radius:0;
 	background:#fff;
 	padding:15px;
-	border:1px solid #ddd;
-}
-#ds-thread:hover{
-	border-color:#ccc;
+	border:1px solid #eaeaea;
 }
 #ds-thread #ds-reset .ds-login-buttons .ds-social-links{
 	margin-top:8px;
 }
 #ds-reset .ds-renren,#ds-thread #ds-reset .ds-sync a.ds-service-icon, #ds-thread #ds-reset .ds-sync a.ds-service-icon-grey,#ds-thread #ds-reset .ds-powered-by a ,#ds-thread #ds-reset .ds-sort,#ds-thread #ds-reset .ds-login-buttons p,#ds-thread #ds-reset .ds-sync,#ds-thread #ds-reset .ds-login-buttons .ds-more-services{
 	display:none;
+}
+@media screen and (max-width: 420px){
+	.ds-comments-tabs {
+		display: none !important;
+	}
+	#ds-reset .ds-weixin {
+		margin-left: 39px;
+	}
 }
