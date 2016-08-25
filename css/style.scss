@@ -10,7 +10,9 @@ body, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input,
     margin: 0;
     padding: 0;
 }
-ul, ol { list-style: none; }
+ul, ol { padding-left: 30px; }
+ul { list-style: disc; }
+ol { list-style: decimal; }
 fieldset, img { border: none; }
 button, input, textarea {
     font-size: 100%;
